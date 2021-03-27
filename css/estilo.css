@@ -3,7 +3,7 @@
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
     box-sizing: border-box;
-
+    list-style: none;
 }
 
 
@@ -16,7 +16,7 @@
     height: 100%;
     /*background-image: linear-gradient(120deg, rgb(29, 85, 206) 0%, rgb(72, 72, 185));
     */
-    background: url(https://static.vix.com/es/sites/default/files/styles/4x3/public/btg/curiosidades.batanga.com/files/91633822.jpg);
+    background: url(https://proyectodemat.files.wordpress.com/2015/09/galaxy-wallpapers-10.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 88vh;
     background-attachment: fixed;
@@ -229,6 +229,116 @@
 
 }
 
+@media screen and (max-width: 500px) {
+    .container {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.title{
+    text-align: center;
+    padding-top: 0.3rem;
+    height: 45px;
+    font-weight: 300;
+    font-size: large;
+}
+
+.cuerpo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.center .casos{
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.center .casos .osama{
+    width: 20%;
+    height: auto;
+    margin: 20px;
+    
+}
+
+.center .casos .osama .image_caso img{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 15px;
+}
+
+.center .casos .armada{
+    width: 20%;
+    height: auto;
+    margin: 20px;
+}
+
+.center .casos .armada .image_caso img{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 15px;
+}
+
+.center .casos .mafias{
+    width: 20%;
+    height: auto;
+    margin: 20px;
+}
+
+.center .casos .mafias .image_caso img{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 15px;
+}
+
+.center .casos .eltrompas{
+    width: 20%;
+    height: auto;
+    margin: 20px;
+}
+
+.center .casos .eltrompas .image_caso img{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 15px;
+}
+
+
+.center .zucaritas{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.center .zucaritas .image img{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+}
+
+.center .casos .zucaritas .info{
+    width: 300px;
+}
+
+
 
 @keyframes change{
     0%{
@@ -261,3 +371,4 @@
     color: aliceblue;
     background-color: #000000;
 }
+
